@@ -8,8 +8,8 @@ setup(
     description='A Python decorator for converting a function into a module. It also includes tools for combining multiple Python files into one.',
     packages=find_packages(),
     scripts=[
-        r'modulize\bin\combine_py_files.py',
-        r'modulize\bin\modulization.py',
-        r'modulize\bin\sync_combined_py_files.py'
+        'modulize/bin/combine_py_files.py',
+        'modulize/bin/modulization.py',
+        'modulize/bin/sync_combined_py_files.py'
     ]
 )
